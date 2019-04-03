@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /components/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /libraries/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /templates/
+Disallow: /tmp/
+Disallow: /xmlrpc/
+
+User-agent: Yandex
+Allow: /
+Host: autoplus.tj
+Sitemap: http://autoplus.tj/sitemap.xml
+
+ 
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+# Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+Sitemap:  http://autoplus.tj/sitemap.xml
+
